@@ -22,6 +22,28 @@ def get_contact(contacts, contact_name):
         return f"{contact_name}: {phone_number}"
     return f"Contacto '{contact_name}' no encontrado."
 
+def remove_contact(contacts, contact_name):
+    """
+    Elimina un contacto del diccionario de forma segura (evita KeyError).
+    """
+    if contact_name in contacts:
+        del contacts[contact_name]
+        print(f"Contacto '{contact_name}' eliminado exitosamente.")
+        return True
+    print(f"Contacto '{contact_name}' no encontrado.")
+    return False
+
+def update_contact(contacts, contact_name, phone_number):
+    """
+    Actualiza el número de un contacto existente de forma segura (evita KeyError).
+    """
+    if contact_name in contacts:
+        contacts[contact_name] = phone_number
+        print(f"Contacto '{contact_name}' actualizado exitosamente.")
+        return True
+    print(f"Contacto '{contact_name}' no encontrado.")
+    return False
+
 # Pruebas de funcionamiento
 if __name__ == "__main__":
     # 1. Agregar contactos

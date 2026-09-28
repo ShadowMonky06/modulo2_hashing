@@ -1,6 +1,6 @@
 ## ¿Cuántos pasos daría tu código para encontrar a "Zulema" si fuera una lista de 100 contactos ordenados alfabéticamente?
 
-En una lista ordenada el codigo daria 100 recorridos ya que en listas mantiene la funcionalidad de O(n) que aumenta linealmente segun la cantidad de contactas o valores ingresados.
+En una lista ordenada el codigo daria 100 recorridos ya que en listas mantiene la funcionalidad de O(n) que aumenta linealmente segun la cantidad de contactas o valores ingresados.En caso fuera una lista desordenada la cantidad de pasos promedio seria de 50 recorridos ya que no hay un patron definido para encontrar el valor.
 
 ## ¿Cuántos pasos da ahora usando un diccionario?
 
