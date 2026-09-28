@@ -1,6 +1,6 @@
 ## ¿Cuántos pasos daría tu código para encontrar a "Zulema" si fuera una lista de 100 contactos ordenados alfabéticamente?
 
-Mi codigo recorreria una sola vez ya que al usar diccionario y la busqueda por "in" es O(1).
+En una lista ordenada el codigo daria 100 recorridos ya que en listas mantiene la funcionalidad de O(n) que aumenta linealmente segun la cantidad de contactas o valores ingresados.
 
 ## ¿Cuántos pasos da ahora usando un diccionario?
 
